@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: arial;
+}
+.holder {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.ciara {
+  width: 100%;
+  background: silver;
+}
+.nadpis_pridaj {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  color: crimson;
+}
+.formular {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 35px auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.formular label {
+  width: 25%;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.formular input {
+  width: 75%;
+  margin: 15px 0;
+  padding: 5px 5px;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.formular .nahlad_obrazku {
+  width: 100%;
+  max-width: 500px;
+  min-height: 250px;
+  height: auto;
+  max-height: 500px;
+  margin: 0 50%;
+  margin-bottom: 25px;
+}
+.pridat_button {
+  background: lightgreen;
+  border: none;
+  padding: 10px 50px;
+  margin: 0 auto;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.2rem;
+  transition: ease 0.3s;
+}
+.pridat_button:hover {
+  transform: scale(1.05, 1.05);
+}
+.nadpis_zoznam {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  color: crimson;
+}
+.drziak_podnet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.podnet {
+  width: 50%;
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.nadpis_podnet {
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 100;
+}
+.podnet_text {
+  font-weight: 400;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+.obrazok_podnet {
+  width: 100%;
+  max-width: 400px;
+  min-height: 150px;
+  height: auto;
+  max-height: 500px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.vymazat_button {
+  background: crimson;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: ease 0.5s;
+  margin-bottom: 25px;
+}
+.vymazat_button:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
